@@ -32,9 +32,9 @@ function renderFundCharts(fund) {
         title: { text: '公积金年度缴存/提取/贷款趋势', textStyle: { fontSize: 14, color: '#333' } },
         tooltip: { trigger: 'axis' },
         legend: { data: ['缴存额', '提取额', '贷款额'], bottom: 0 },
-        grid: { left: 50, right: 20, bottom: 40, top: 40 },
+        grid: { left: 60, right: 20, bottom: 40, top: 44 },
         xAxis: { type: 'category', data: years, axisLabel: { fontSize: 12 } },
-        yAxis: { type: 'value', name: '金额（亿元）', nameTextStyle: { fontSize: 11 } },
+        yAxis: { type: 'value', name: '金额（亿元）', nameTextStyle: { fontSize: 11 }, nameLocation: 'middle', nameGap: 45 },
         series: [
             {
                 name: '缴存额', type: 'bar', data: fund.yearly_summary.map(function (d) { return d.deposit; }),
@@ -63,9 +63,9 @@ function renderHousingCharts(housing) {
         title: { text: '保障性住房建设与分配情况', textStyle: { fontSize: 14, color: '#333' } },
         tooltip: { trigger: 'axis' },
         legend: { data: ['计划建设', '实际建成', '分配入住'], bottom: 0 },
-        grid: { left: 50, right: 20, bottom: 40, top: 40 },
+        grid: { left: 60, right: 20, bottom: 40, top: 44 },
         xAxis: { type: 'category', data: years, axisLabel: { fontSize: 12 } },
-        yAxis: { type: 'value', name: '套数', nameTextStyle: { fontSize: 11 } },
+        yAxis: { type: 'value', name: '套数', nameTextStyle: { fontSize: 11 }, nameLocation: 'middle', nameGap: 45 },
         series: [
             {
                 name: '计划建设', type: 'bar', data: housing.yearly.map(function (d) { return d.planned; }),
