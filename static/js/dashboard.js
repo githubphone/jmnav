@@ -103,7 +103,7 @@ function renderHousingCharts(housing) {
 
 document.addEventListener('DOMContentLoaded', function () {
     var script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js';
+    script.src = '/static/js/echarts.min.js';
     script.onload = loadDashboard;
     document.head.appendChild(script);
 });
