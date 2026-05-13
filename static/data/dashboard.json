@@ -1,0 +1,50 @@
+{
+  "housing_fund": {
+    "yearly_summary": [
+      {"year": 2021, "deposit": 82.5, "withdraw": 56.3, "loan": 18.7},
+      {"year": 2022, "deposit": 88.1, "withdraw": 62.8, "loan": 16.2},
+      {"year": 2023, "deposit": 93.6, "withdraw": 68.5, "loan": 22.4},
+      {"year": 2024, "deposit": 97.2, "withdraw": 72.1, "loan": 25.8},
+      {"year": 2025, "deposit": 101.5, "withdraw": 76.3, "loan": 28.6}
+    ],
+    "monthly_trend": [
+      {"month": "2025-01", "deposit": 8.2, "withdraw": 6.1},
+      {"month": "2025-02", "deposit": 7.5, "withdraw": 5.8},
+      {"month": "2025-03", "deposit": 9.1, "withdraw": 6.9},
+      {"month": "2025-04", "deposit": 8.8, "withdraw": 6.5},
+      {"month": "2025-05", "deposit": 8.6, "withdraw": 6.3},
+      {"month": "2025-06", "deposit": 9.3, "withdraw": 7.2},
+      {"month": "2025-07", "deposit": 8.4, "withdraw": 6.0},
+      {"month": "2025-08", "deposit": 8.1, "withdraw": 5.9},
+      {"month": "2025-09", "deposit": 8.9, "withdraw": 6.7},
+      {"month": "2025-10", "deposit": 8.3, "withdraw": 6.2},
+      {"month": "2025-11", "deposit": 8.7, "withdraw": 6.4},
+      {"month": "2025-12", "deposit": 7.6, "withdraw": 5.3}
+    ],
+    "total_accounts": 386200,
+    "total_deposit": 456.7,
+    "total_withdraw": 336.0,
+    "total_loan": 111.7
+  },
+  "affordable_housing": {
+    "yearly": [
+      {"year": 2021, "planned": 1850, "constructed": 1720, "allocated": 1580},
+      {"year": 2022, "planned": 2100, "constructed": 1980, "allocated": 1750},
+      {"year": 2023, "planned": 2400, "constructed": 2250, "allocated": 2010},
+      {"year": 2024, "planned": 2800, "constructed": 2630, "allocated": 2420},
+      {"year": 2025, "planned": 3200, "constructed": 3050, "allocated": 2860}
+    ],
+    "district_distribution": [
+      {"district": "蓬江区", "count": 2850},
+      {"district": "江海区", "count": 2100},
+      {"district": "新会区", "count": 1950},
+      {"district": "台山市", "count": 1680},
+      {"district": "开平市", "count": 1520},
+      {"district": "鹤山市", "count": 1350},
+      {"district": "恩平市", "count": 1100}
+    ],
+    "total_units": 12550,
+    "total_households": 11280,
+    "coverage_rate": 3.2
+  }
+}

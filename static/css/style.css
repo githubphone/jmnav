@@ -379,3 +379,43 @@ ul { list-style: none; }
     opacity: 0.6;
     margin-top: 4px;
 }
+
+/* Dashboard */
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 20px;
+}
+.stat-card {
+    background: #f8f9fa;
+    border: 1px solid #e8eaed;
+    border-radius: 8px;
+    padding: 18px 16px;
+    text-align: center;
+}
+.stat-value {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.stat-label {
+    font-size: 13px;
+    color: #666;
+}
+.chart-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+.chart-box {
+    height: 320px;
+    border: 1px solid #e8eaed;
+    border-radius: 8px;
+    padding: 8px;
+    background: #fafbfc;
+}
+.chart-box:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    height: 280px;
+}

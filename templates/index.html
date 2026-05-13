@@ -32,6 +32,7 @@
         <div class="container">
             <ul class="nav-list">
                 <li class="active"><a href="/">网站首页</a></li>
+                <li><a href="#dashboard">数据看板</a></li>
                 <li><a href="#systems">业务系统</a></li>
                 <li><a href="#news">新闻动态</a></li>
             </ul>
@@ -54,6 +55,19 @@
                 <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
                 <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
                 <div class="carousel-dots" id="carouselDots"></div>
+            </div>
+        </section>
+
+        <section class="section" id="dashboard">
+            <div class="section-header">
+                <h2><span class="section-icon"></span>数据看板</h2>
+                <p class="section-desc">江门市住房公积金 & 保障性住房关键指标（示例数据）</p>
+            </div>
+            <div class="stat-cards" id="statCards"></div>
+            <div class="chart-grid">
+                <div class="chart-box" id="chartFund"></div>
+                <div class="chart-box" id="chartHousing"></div>
+                <div class="chart-box" id="chartDistrict"></div>
             </div>
         </section>
 
@@ -135,5 +149,6 @@
     </footer>
 
     <script src="/static/js/main.js"></script>
+    <script src="/static/js/dashboard.js"></script>
 </body>
 </html>
