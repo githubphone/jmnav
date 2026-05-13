@@ -101,9 +101,4 @@ function renderHousingCharts(housing) {
     window.addEventListener('resize', function () { chart2.resize(); });
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    var script = document.createElement('script');
-    script.src = '/static/js/echarts.min.js';
-    script.onload = loadDashboard;
-    document.head.appendChild(script);
-});
+document.addEventListener('DOMContentLoaded', loadDashboard);
